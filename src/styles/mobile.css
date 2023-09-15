@@ -1,21 +1,21 @@
-#main-nav .social {
+.main-nav .social {
   display: none;
 }
-#main-nav .logo {
+.main-nav .logo {
   display: none;
 }
 
-#main-nav .container {
+.main-nav .container {
   grid-template-columns: 1fr;
   grid-gap: 1.2rem;
 }
 
-#main-nav ul,
-#main-nav .logo {
+.main-nav ul,
+.main-nav .logo {
   justify-self: center;
 }
 
-#main-nav ul li a {
+.main-nav ul li a {
   padding: 0.5rem;
 }
 
@@ -29,7 +29,7 @@
   grid-column: 1;
 }
 
-#show-case .showcase-container {
+.show-case .showcase-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 600px) {
-  #show-case .showcase-container {
+  .show-case .showcase-container {
     grid-template-columns: 1fr;
     justify-content: center;
   }

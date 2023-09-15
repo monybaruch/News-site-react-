@@ -1,59 +1,10 @@
+import { Nav, ShowCase } from './components/index.js';
 function App() {
   return (
     <>
-      <nav id="main-nav">
-        <div className="container">
-          <img src="./images/fox-news-logo.jpg" alt="NewsGrid" className="logo" />
-          <div className="social">
-            <a href="https://www.facebook.com/FoxNews/" target="_blank">
-              <i className="fab fa-facebook fa-3x" />
-            </a>
-            <a href="https://www.instagram.com/foxnews/" target="_blank">
-              <i className="fab fa-instagram fa-3x" />
-            </a>
-            <a href="https://www.youtube.com/channel/UCXIJgqnII2ZOINSWNOGFThA" target="_blank">
-              <i className="fab fa-youtube fa-3x" />
-            </a>
-            <a href="https://twitter.com/FoxNews" target="_blank">
-              <i className="fab fa-twitter fa-3x" />
-            </a>
-          </div>
-          <ul>
-            <li>
-              <a className="current" href="index.html">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="article.html">Articles</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Nav />
       {/* Showcase Area */}
-      <header id="show-case">
-        <div className="container">
-          <div className="showcase-container">
-            <div className="showcase-content">
-              <div className="category category-sports">Sports</div>
-              <h1>LIONEL MESSI JOINS RARE TERRITORY BY SCORING 700TH CAREER CLUB GOAL</h1>
-              <p>
-                Lionel Messi added another milestone to his already prestigious résumé on Sunday. The all-time great
-                scored his 700th career club goal in Paris St. Germain's 3-0 win over Marseille. Messi's milestone goal
-                came in the 29th minute of Sunday's match when he received a cross from Kylian Mbappé in the center of
-                the box, tapping the ball into the net from just a few yards out. The Argentinian striker was mobbed by
-                his PSG teammates following the goal.
-              </p>
-              <a className="btn btn-primary" href="article.html">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
+      <ShowCase />
       {/* Articles */}
       <section id="articles" className="py-2">
         <div className="container">
