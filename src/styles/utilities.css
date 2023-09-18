@@ -1,0 +1,104 @@
+:root {
+  --primary-color: #c72727;
+  --secondary-color: rgba(4, 4, 159, 0.866);
+  --light-color: rgba(245, 245, 245, 0.715);
+  --dark-color: #333;
+  --max-width: 1600px;
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+}
+
+.category {
+  --sports-color: rgba(4, 4, 159, 0.866);
+  --ent-color: #f99500;
+  --tech-color: #009cff;
+}
+.category {
+  display: inline-block;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.category-sports {
+  background: var(--sports-color);
+}
+.category-ent {
+  background: var(--ent-color);
+}
+.category-tech {
+  background: var(--tech-color);
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--dark-color);
+  color: white;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-light {
+  background: var(--light-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: white;
+}
+.bg-primary {
+  background: var(--primary-color);
+  color: white;
+}
+.bg-secondary {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
