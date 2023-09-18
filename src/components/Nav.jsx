@@ -1,3 +1,4 @@
+import './nav.css';
 const Nav = () => {
   return (
     <nav className="main-nav">

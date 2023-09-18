@@ -1,3 +1,4 @@
+import './footer.css';
 const Footer = () => {
   return (
     <footer className="main-footer py-2">
