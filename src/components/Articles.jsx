@@ -1,6 +1,6 @@
 const articles = () => {
   return (
-    <section className="articles py-2">
+    <section id="articles" className="py-2">
       <div className="container">
         <h2>Fox News Daily Articles</h2>
         <div className="articles-container">
@@ -39,6 +39,7 @@ const articles = () => {
               Checking into the White Lotus: the winners of Outstanding Performance by an Ensemble in a Drama Series.
             </p>
           </article>
+
           <article className="card">
             <div className="category category-sports">Sports</div>
             <h3>

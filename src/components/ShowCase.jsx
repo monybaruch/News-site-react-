@@ -1,6 +1,6 @@
 const ShowCase = () => {
   return (
-    <header className="show-case">
+    <header id="show-case">
       <div className="container">
         <div className="showcase-container">
           <div className="showcase-content">

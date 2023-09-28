@@ -1,9 +1,9 @@
 import './nav.css';
 const Nav = () => {
   return (
-    <nav className="main-nav">
+    <nav id="main-nav">
       <div className="container">
-        <img src="../../images/fox-news-logo.jpg" alt="NewsGrid" className="logo" />
+        <img src="./images/fox-news-logo.jpg" alt="NewsGrid" className="logo" />
         <div className="social">
           <a href="https://www.facebook.com/FoxNews/" target="_blank">
             <i className="fab fa-facebook fa-3x"></i>

@@ -1,21 +1,21 @@
-.main-footer {
+#main-footer {
   background: var(--dark-color);
   color: white;
 }
 
-.main-footer a {
+#main-footer a {
   color: white;
   font-size: 1.7=5rem;
 }
 
-.main-footer .footer-container {
+#main-footer .footer-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   font-size: 1.5rem;
 }
 
-.main-footer .footer-container > *:last-child {
+#main-footer .footer-container > *:last-child {
   background-color: #444;
   grid-column: 1 / span 3;
   padding: 0.5rem;
@@ -23,35 +23,35 @@
   font-size: 1rem;
 }
 
-.main-footer .footer-container > *:first-child {
+#main-footer .footer-container > *:first-child {
   grid-column: 1 / span 3;
   padding: 1rem;
   text-align: center;
 }
-.main-footer .footer-container > *:first-child > h2 {
+#main-footer .footer-container > *:first-child > h2 {
   font-size: 2.5rem;
 }
 
-.main-footer .footer-container input[type='email'] {
+#main-footer .footer-container input[type='email'] {
   width: 90%;
   padding: 1.5rem;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
   font-size: 1.2rem;
 }
-.main-footer .footer-container > *:nth-child(3) {
+#main-footer .footer-container > *:nth-child(3) {
   margin-left: 150px;
 }
 
-.main-footer .footer-container input[type='submit'] {
+#main-footer .footer-container input[type='submit'] {
   width: 90%;
   padding: 1rem;
   margin-top: 1rem;
   font-size: 1.2rem;
 }
-.main-footer .footer-container > div > h3 {
+#main-footer .footer-container > div > h3 {
   font-size: 2rem;
 }
-.main-footer .footer-container > div > p {
+#main-footer .footer-container > div > p {
   font-size: 1.4rem;
 }

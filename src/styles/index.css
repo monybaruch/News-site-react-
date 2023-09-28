@@ -1,61 +1,29 @@
-/* Nav-bar */
-
-.main-nav {
-  background: white;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-.main-nav .container {
-  display: grid;
-  grid-template-columns: 6fr 3fr 2fr;
-  padding: 1rem;
-  align-items: center;
+:root {
+  --primary-color: #c72727;
+  --secondary-color: rgba(4, 4, 159, 0.866);
+  --light-color: rgba(245, 245, 245, 0.715);
+  --dark-color: #333;
+  --max-width: 1600px;
+  --primary-font: 'Lato', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
 }
 
-.main-nav .logo {
-  width: 180px;
-  height: 140px;
-}
-
-.main-nav ul {
-  justify-self: end;
-  display: flex;
-  text-align: center;
-}
-.main-nav ul a {
-  padding: 0.75rem;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-.main-nav ul a.current {
-  background: var(--primary-color);
-  color: white;
-}
-.main-nav ul a:hover {
-  color: var(--dark-color);
-  background: var(--light-color);
-}
-
-.main-nav .social {
-  justify-self: center;
-}
-
-.main-nav .social i {
-  color: #686767;
-  margin-right: 1rem;
+.category {
+  --sports-color: rgba(4, 4, 159, 0.866);
+  --ent-color: #f99500;
+  --tech-color: #009cff;
 }
 
 /* Showcase Styling */
 
-.show-case {
+#show-case {
   color: white;
   background: var(--dark-color);
   padding: 2rem;
   position: relative;
 }
 
-.show-case:before {
+#show-case:before {
   content: '';
   background: url(../images/messi.jpg) no-repeat center center/cover;
   position: absolute;
@@ -66,7 +34,7 @@
   opacity: 0.4;
 }
 
-.show-case .showcase-container {
+#show-case .showcase-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -84,7 +52,7 @@
 
 /* Home Articles styling */
 
-.articles .articles-container {
+#articles .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
@@ -95,7 +63,7 @@
   height: 200px;
 }
 
-.articles .articles-container > *:first-child {
+#articles .articles-container > *:first-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
@@ -103,14 +71,12 @@
   align-items: center;
 }
 
-.articles .articles-container > *:last-child {
+#articles .articles-container > *:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   grid-column: 2 / span 2;
 }
-
-/* Footer Styling */
 
 /* About page styling */
 
@@ -135,7 +101,7 @@
 
 /* Articles page styling */
 
-.article .meta {
+#article .meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,7 +109,7 @@
   padding: 0.5rem;
 }
 
-.article .meta .category {
+#article .meta .category {
   margin-top: 0.5rem;
 }
 

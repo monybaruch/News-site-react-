@@ -1,7 +1,7 @@
 import './footer.css';
 const Footer = () => {
   return (
-    <footer className="main-footer py-2">
+    <footer id="main-footer" className="py-2">
       <div className="container footer-container">
         <div>
           <h2>Fill Your World with Positive News : Fox News</h2>
@@ -11,14 +11,14 @@ const Footer = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <form>
             <input type="email" placeholder="Enter Email!" />
-            <input type="submit" defaultValue="Subscribe" className="btn btn-primary" />
+            <input type="submit" value="Subscribe" className="btn btn-primary" />
           </form>
         </div>
         <div>
           <h3>Site Links</h3>
           <ul className="list">
             <li>
-              <a href="#">Help &amp; Support</a>
+              <a href="#">Help & Support</a>
             </li>
             <li>
               <a href="#">Privacy Policy</a>
@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <p>Copyright © 2023, All Rights Reserved</p>
+          <p>Copyright &copy; 2023, All Rights Reserved</p>
         </div>
       </div>
     </footer>

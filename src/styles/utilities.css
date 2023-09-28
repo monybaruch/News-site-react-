@@ -13,6 +13,14 @@
   --ent-color: #f99500;
   --tech-color: #009cff;
 }
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
 .category {
   display: inline-block;
   color: white;
@@ -21,12 +29,6 @@
   padding: 0.4rem 0.6rem;
   border-radius: 15px;
   margin-bottom: 0.5rem;
-}
-.container {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 0 2rem;
-  overflow: hidden;
 }
 .category-sports {
   background: var(--sports-color);
@@ -101,4 +103,13 @@
 }
 .p-3 {
   padding: 3rem;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+.list li a:hover {
+  color: var(--primary-color) !important;
 }

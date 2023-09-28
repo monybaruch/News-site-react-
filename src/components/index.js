@@ -1,6 +1,6 @@
 import Nav from './Nav';
 import Article from './Article';
-import Articles from './articles';
+import Articles from './Articles';
 import ShowCase from './ShowCase';
 import Footer from './Footer';
 
